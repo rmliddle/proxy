@@ -2,7 +2,7 @@ use axum::{http::StatusCode, response::IntoResponse, Json};
 use serde::{Deserialize, Serialize};
 use tracing::warn;
 
-pub static PAGE_SIZE: usize = 1000;
+pub static PAGE_SIZE: usize = 100;
 
 #[derive(Clone, Debug)]
 pub enum DatabaseOperation {
