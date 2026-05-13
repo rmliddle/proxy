@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for storage-lilac-forest-8766 on 2026-05-09T09:04:27+10:00
+# fly.toml app configuration file generated for proxy-calm-horizon-166 on 2026-05-13T19:52:57+10:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'storage-lilac-forest-8766'
+app = 'proxy-calm-horizon-166'
 primary_region = 'syd'
 
 [build]
@@ -18,5 +18,6 @@ primary_region = 'syd'
 
 [[vm]]
   memory = '1gb'
+  cpu_kind = 'shared'
   cpus = 1
   memory_mb = 1024
